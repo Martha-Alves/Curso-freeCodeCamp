@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <h1 id="title">Formulário de Satisfação</h1>
+    <p id="description">Nos ajude a melhorar a nossa página!</p>
+    <form id="survey-form">
+    <p><label id="name-label" for="name"> Nome: <input type="text" id="name" placeholder="Fulano" required></label></p>
+    <p><label id="email-label" for="email"> E-mail: <input type="email" id="email" placeholder="fulano@mail.com" required></label></p>
+    <p><label id="number-label" for="number"> Idade: <input type="number" id="number" min="15" max="120" placeholder="20" required></label></p>
+    <p>
+      <label for="dropdown">Qual sua ocupação?</label>
+      <select label="" id="dropdown" required>
+        <option value="">Selecione um</option>
+         <option value="1">Trabalhador</option>
+         <option value="2">Estudante</option>
+         <option value="3">Desempregado</option>
+      </select>
+    </p>  
+    <p>Você recomendaria a nossa página para algum amigo?</p>
+      <p><label for="rec"><input type="radio" name="rec" id="rec" value="s" required> Sim</label></p>
+      <p><label for="rec"><input type="radio" name="rec" id="rec" value="s" required> Não</label></p>
+   
+    <p>Quais linguagens de programação você conhece? (marque todas que conhecer)<p>
+      <p><label for="js"><input type="checkbox" value="js"> JavaScript</label></p>
+      <p><label for="java"><input type="checkbox" value="java"> Java</label></p>
+    <p><label for="python"><input type="checkbox" value="python"> Python</label></p>
+   <p><label for="php"><input type="checkbox" value="php"> PHP</label></p>
+    <p>
+      <label>Tem alguma sugestão? Conta pra gente!<textarea></textarea></label>
+    </p>
+
+
+    <p>  
+      <input type="submit" id="submit" value="Enviar">
+      <input type="reset">
+    </p>
+    </form>  
+  </body>
+
+
+--------------------------
+
